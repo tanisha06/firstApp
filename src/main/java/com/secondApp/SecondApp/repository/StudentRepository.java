@@ -1,6 +1,7 @@
-package com.secondApp.SecondApp;
+package com.secondApp.SecondApp.repository;
 
+import com.secondApp.SecondApp.entity.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
-// to use all jpa functionalities
+
 public interface StudentRepository extends JpaRepository<Student, Long> {
 }
